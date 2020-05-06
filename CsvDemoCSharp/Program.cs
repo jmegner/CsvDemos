@@ -4,6 +4,10 @@ using Microsoft.VisualBasic.FileIO;
 
 // TextFieldParser class reference:
 // https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.fileio.textfieldparser?redirectedfrom=MSDN&view=netcore-3.1
+//
+// for a more powerful library, there's the 3rd party library CsvHelper available via nuget
+// nuget link: https://www.nuget.org/packages/CsvHelper
+// project site: https://joshclose.github.io/CsvHelper/
 
 namespace CsvDemo
 {
