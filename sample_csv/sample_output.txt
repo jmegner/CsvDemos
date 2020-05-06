@@ -1,0 +1,11 @@
+begin
+reading file '../../../sample_csv/blah1.csv'
+    line 001: header1  |  header2  |  [EMPTY]  |  header4_after_missing_header3
+    line 002: val1  |  val2  |  val3  |  val4
+    line 003: val5  |  [EMPTY]  |  val6
+reading file '../../../sample_csv/blah2.csv'
+    line 001: blah  |  blee  |  blur  |  blag
+    line 002: val1  |  val2  |  val3  |  extraCommaAfterThis  |  [EMPTY]
+reading file '../../../sample_csv/blah3.txt'
+    line 001: csv format  |  but with txt file extension
+done

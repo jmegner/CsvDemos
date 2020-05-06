@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CsvDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "\"../../../../sample_csv/blah1.csv\" \"../../../../sample_csv/blah2.csv\" \"../../../../sample_csv/blah3.txt\""
+    }
+  }
+}
