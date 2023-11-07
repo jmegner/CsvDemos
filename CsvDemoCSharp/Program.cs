@@ -24,6 +24,8 @@ namespace CsvDemo
                 using var parser = new TextFieldParser(arg);
                 parser.SetDelimiters(",");
 
+                // TODO: Use TextFieldParser.LineNumber
+                // https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.fileio.textfieldparser.linenumber?view=netcore-3.1#microsoft-visualbasic-fileio-textfieldparser-linenumber
                 int lineNum = 0;
 
                 while(!parser.EndOfData)
