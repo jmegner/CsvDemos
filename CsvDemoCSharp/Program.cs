@@ -24,14 +24,9 @@ namespace CsvDemo
                 using var parser = new TextFieldParser(arg);
                 parser.SetDelimiters(",");
 
-                // TODO: Use TextFieldParser.LineNumber
-                // https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.fileio.textfieldparser.linenumber?view=netcore-3.1#microsoft-visualbasic-fileio-textfieldparser-linenumber
-                int lineNum = 0;
-
                 while(!parser.EndOfData)
                 {
-                    lineNum++;
-
+                    var lineNum = parser.LineNumber; // read .LineNumber before calling .ReadFields()
                     var fields = parser.ReadFields();
 
                     // at this point, could just do the following to print out the fields, separated again by commas:
